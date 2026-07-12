@@ -37,6 +37,17 @@
 const timeline = [
   {
     type: 'work',
+    title: 'Backend Developer',
+    org: 'Zaiti',
+    period: '2026/07 — Ongoing',
+    bullets: [
+      'Design, build, and maintain robust and scalable backend services and API architectures.',
+      'Optimize database performance, queries, and data storage design.',
+    ],
+    tags: ['Go', 'Node.js', 'PostgreSQL', 'System Design'],
+  },
+  {
+    type: 'work',
     title: 'Community Leader',
     org: 'Google Developer Group on Campus',
     period: '2025 — Ongoing',
