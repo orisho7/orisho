@@ -13,10 +13,10 @@
         <span ref="typedEl" />
       </h1>
 
-      <p class="home-tagline">System and Back end Developer</p>
+      <p class="home-tagline">Backend Architecture & Distributed Systems</p>
 
       <div class="home-meta">
-        <span class="meta-loc">Qassim, Unayzah</span>
+        <span class="meta-loc">Qassim, KSA</span>
       </div>
 
       <div class="home-explore-hint" aria-hidden="true">

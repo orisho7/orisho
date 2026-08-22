@@ -40,55 +40,57 @@
 <script setup>
 const projects = [
   {
+    title: 'Rush',
+    year: '2026',
+    link: 'https://rush-page.vercel.app/',
+    bullets: [
+      'High-Performance Dependency Orchestrator built with Go and filesystem-level symlinks.',
+      'Reduced dependency deployment time from ~2.5 minutes to 1 ms through intelligent caching and symlinks.',
+      'Designed deterministic dependency resolution and efficient execution of build tasks while eliminating redundant operations.',
+    ],
+    tags: ['Go', 'Symlinks', 'Caching', 'CLI'],
+  },
+  {
     title: 'Robin',
     year: '2026',
     link: 'https://github.com/orisho7/Robin_CLI',
     bullets: [
-      'Lightweight, real-time observability agent and CLI dashboard streaming live system metrics via Server-Sent Events (SSE).',
-      'Interactive Bubble Tea terminal UI with auto-reconnect, persistent setup wizard, and built-in system stress testing capabilities.',
-      'Supports seamless monitoring of local and remote servers with zero-config public tunneling integration.',
+      'Real-Time Observability Agent and CLI dashboard streaming live system metrics through Server-Sent Events (SSE).',
+      'Continuous monitoring of CPU, memory, and system resources with low-overhead metric collection.',
+      'Designed an interactive terminal-based dashboard with Bubble Tea for real-time system observability.',
     ],
-    tags: ['Go', 'CLI', 'TUI', 'SSE'],
+    tags: ['Go', 'OS', 'SSE', 'Bubble Tea', 'TUI'],
+  },
+  {
+    title: 'Radian',
+    year: '2026',
+    bullets: [
+      'Engine Oil Recommendation Engine evaluating vehicle and engine specifications against manufacturer guidelines and Saudi Arabia’s climate and severe-driving conditions.',
+      'Exposed via gRPC/HTTP and integrated with a multi-source vehicle and oil specification data pipeline.',
+      'Implemented rule-based recommendation logic covering viscosity, engine type, climate, and severe-duty operating conditions.',
+    ],
+    tags: ['Go', 'Redis', 'gRPC', 'HTTP', 'Python', 'NestJS'],
   },
   {
     title: 'AI-Assisted Goal Management System',
-    year: '2024',
+    year: '2025',
     bullets: [
-      'Structured goal-tracking ecosystem using Flutter, Node.js, and a dedicated Go-based AI service for long-term behavioral analysis.',
-      'Scalable three-tier architecture with clear service boundaries managing AI orchestration, product logic, and MongoDB data persistence.',
-      'LLM-driven daily reflections and progress summarization with cost-efficient model processing and modular API contracts.',
+      'Behavioral Goal Tracking Platform built with Flutter, Node.js, Go, and MongoDB.',
+      'Architected a scalable three-tier system with clear service boundaries for AI orchestration, product logic, and MongoDB persistence.',
+      'Designed structured behavioral data flows to support long-term analysis and personalized insights.',
     ],
-    tags: ['Go', 'Flutter', 'Node.js', 'MongoDB', 'OLLAMA', 'JWT'],
-  },
-  {
-    title: 'Rush',
-    year: '2024',
-    link: 'https://rush-page.vercel.app/',
-    bullets: [
-      'High-performance Go-based dependency orchestrator designed to accelerate builds through smart caching and distributed execution.',
-    ],
-    tags: ['Go', 'CLI', 'Caching'],
+    tags: ['Flutter', 'Node.js', 'Go', 'MongoDB', 'AI'],
   },
   {
     title: 'VoiceMemo',
-    year: '2024',
+    year: '2025',
     link: 'https://github.com/orisho7/Mic',
     bullets: [
-      'Modern, feature-rich C# audio recording utility featuring real-time speech-to-text transcription powered by the Vosk engine.',
-      'Designed custom circular wave visualizers, volume indicators, and settings persistence via NAudio and Vosk.',
-      'Implements sample rate configuration, recording timers, and structured error handling for high-fidelity audio workflows.',
+      'Audio Recording and Speech-to-Text Utility built with C#, Vosk, and NAudio.',
+      'Engineered custom circular waveform visualizers and real-time volume indicators for interactive audio monitoring.',
+      'Implemented configurable sample rates, recording timers, persistent settings, and structured error handling.',
     ],
-    tags: ['C#', '.NET', 'NAudio', 'Vosk', 'Audio Processing'],
-  },
-  {
-    title: 'GameRank',
-    year: '2023',
-    link: 'https://game-rank-orisho.vercel.app/',
-    bullets: [
-      'Distraction-free, ad-free gaming ranking platform with clean functionality and intuitive design for daily use.',
-      'Focused on streamlined user experiences and seamless browser integration.',
-    ],
-    tags: ['PHP', 'SQL', 'JavaScript'],
+    tags: ['C#', 'Vosk', 'NAudio', 'Audio Processing'],
   },
 ]
 </script>

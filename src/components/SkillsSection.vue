@@ -45,40 +45,49 @@ const skillCategories = [
   {
     name: 'Languages',
     skills: [
-      { name: 'Go (Golang)', level: 85 },
-      { name: 'JavaScript', level: 80 },
-      { name: 'Dart',       level: 78 },
-      { name: 'Python',     level: 70 },
-      { name: 'PHP / SQL',  level: 68 },
+      { name: 'Go (Golang)',  level: 90 },
+      { name: 'TypeScript',   level: 85 },
+      { name: 'JavaScript',   level: 85 },
+      { name: 'Dart',         level: 80 },
+      { name: 'C#',           level: 78 },
+      { name: 'Python',       level: 75 },
     ],
   },
   {
-    name: 'Frameworks & Databases',
+    name: 'Backend & Distributed Systems',
     skills: [
-      { name: 'Flutter',          level: 82 },
-      { name: 'Node.js / Express',level: 78 },
-      { name: 'MongoDB',          level: 75 },
-      { name: 'MySQL',            level: 70 },
+      { name: 'NestJS / Node.js',           level: 88 },
+      { name: 'gRPC / REST APIs',           level: 86 },
+      { name: 'Redis Streams / EDA',        level: 84 },
+      { name: 'Caching & SOA',              level: 85 },
     ],
   },
   {
-    name: 'Tools & Architecture',
+    name: 'Databases & Storage',
     skills: [
-      { name: 'Git / GitHub',     level: 88 },
-      { name: 'OLLAMA / LLM APIs',level: 72 },
-      { name: 'JWT Auth',         level: 80 },
-      { name: 'System Design',    level: 78 },
+      { name: 'PostgreSQL',                 level: 86 },
+      { name: 'Redis',                      level: 88 },
+      { name: 'MongoDB',                    level: 82 },
+    ],
+  },
+  {
+    name: 'Tools & Observability',
+    skills: [
+      { name: 'Git / Docker / Linux',       level: 88 },
+      { name: 'Vegeta / Toxiproxy',         level: 82 },
+      { name: 'Server-Sent Events (SSE)',   level: 85 },
     ],
   },
 ]
 
 const softSkills = [
-  'Problem Solving',
-  'Attention to Detail',
-  'Communication',
-  'Time Management',
-  'Team Player',
-  'Independent Work',
+  'Backend Architecture',
+  'Distributed Systems',
+  'Performance Engineering',
+  'System Optimization',
+  'Concurrency',
+  'Arabic (Native)',
+  'English (Professional)',
 ]
 </script>
 

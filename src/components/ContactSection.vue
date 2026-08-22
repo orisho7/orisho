@@ -5,8 +5,8 @@
       <h2 id="contact-heading">Contact</h2>
 
       <p class="contact-intro">
-        Systems-oriented engineer open to backend, full-stack, and AI-integrated
-        roles. Based in Qassim, Unayzah — available remotely worldwide.
+        Software Engineer specializing in backend architecture, distributed systems, and
+        performance engineering. Based in Qassim, KSA — available remotely worldwide.
       </p>
 
       <ul class="contact-links" role="list">
